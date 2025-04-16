@@ -705,6 +705,22 @@ progress {
   width: 50%;
 }
 
+.background-watermark {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/home/students/Documents/Web Development/CV_Pontiane/assets/img/filgra1.jpg'); /* chemin vers ta photo */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: 50%;
+  opacity: 0.15; 
+  z-index: -1; 
+}
+
+
 .row-cols-3 > * {
   flex: 0 0 auto;
   width: 33.3333333333%;
@@ -8038,6 +8054,7 @@ textarea.form-control-lg {
 .text-primary {
   --bs-text-opacity: 1;
   color: 	#da70d6 !important;
+  opacity: 0.8;
 }
 
 .text-secondary {
@@ -8129,6 +8146,7 @@ textarea.form-control-lg {
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: 			#da70d6 !important;
+  	opacity: 0.6;
 }
 
 .bg-secondary {
