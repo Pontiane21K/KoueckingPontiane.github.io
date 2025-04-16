@@ -711,7 +711,7 @@ progress {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-image: url('/home/students/Documents/Web Development/CV_Pontiane/assets/img/filgra1.jpg'); /* chemin vers ta photo */
+  background-image: url('../assets/img/filgra1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
